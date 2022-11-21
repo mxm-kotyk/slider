@@ -21,7 +21,7 @@ body {
 body {
     margin-left: auto;
     margin-right: auto;
-    /* width: 1300px; */
+    padding: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -31,7 +31,6 @@ body {
 }
 
 .swiper {
-    margin-left: 100px;
     width: 140px;
     height: 217px;
 }
@@ -43,11 +42,8 @@ body {
     border-radius: 10px;
     font-size: 22px;
     font-weight: bold;
-    color: #fff;
-}
-
-.swiper-slide {
     background-color: rgb(206, 17, 17);
+    color: #fff;
 }
 
 .swiper-button-next,
